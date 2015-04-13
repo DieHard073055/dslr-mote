@@ -78,3 +78,11 @@
 			//---Display the menu settings
 					shutter = false;
 			if( shots == settings_values[SHOTS_SETTING]) return;	
+//===TIMELAPSE CONTROLLER
+
+		Trigger the Shutter using the remote.
+//------Process User Input
+		1000, //Interval
+			
+					//TODO: SET SHUTTER PIN LOW
+		}	
