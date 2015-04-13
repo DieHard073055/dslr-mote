@@ -88,3 +88,18 @@ void B_FALL(){
                            if(setting > 3){
 				if(elapsed >= settings_values[EXPOSURE_SETTING]){
 			
+#include <SPI.h>
+#define OLED_CS    12
+
+  initiateOLEDDisplay();
+//===ROTORY ENCODER
+ A_SIG=0;
+ B_SIG=0;
+	Menu Options
+//Enter While Loop
+	String menu_options[] = {
+	boolean interval = false; //To check if its going through interval time
+                            }else{
+                              setting = 0; 
+					elapsed = 0;
+			//SHOTS LIMITER
