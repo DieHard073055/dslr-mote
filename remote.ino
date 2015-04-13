@@ -62,3 +62,11 @@
 	
 					elapsed = 0;
 			//SHOTS LIMITER
+//===ROTORY ENCODER
+//===LOOP
+	
+//------Display Timelapsing Data
+	unsigned long settings_values[]{
+		if(mode == SETTINGS_MODE){
+					start = millis();
+			//If Shots reaches the shot limit. return
