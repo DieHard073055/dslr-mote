@@ -73,3 +73,18 @@ void B_FALL(){
                            } 
 			if(shutter){ //Shutter control code
 			}
+//=======INCLUDES
+#define OLED_DC    11
+#define SHOTS_SETTING 2
+  initiateSerialCommunication();
+}
+ detachInterrupt(0); 
+ detachInterrupt(1); 
+/*
+//Initialise All Timelapse Variables
+
+	int shots=0; //Total Number of shots taken
+                              d_println(menu_options[i]);
+                           if(setting > 3){
+				if(elapsed >= settings_values[EXPOSURE_SETTING]){
+			
