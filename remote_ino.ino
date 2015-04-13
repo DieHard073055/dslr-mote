@@ -28,3 +28,18 @@
                            if(pulse < 0){
 			
 					//TODO: SET SHUTTER PIN HIGH
+	-Timelapse + Remote Function
+//===OLED DISPLAY
+#define SETTINGS_MODE 21
+//Initiate Rotory Encoder Hardware Interrupts
+  d_setCur(0,0); 
+ attachInterrupt(0, A_FALL, FALLING);
+ attachInterrupt(1, B_FALL, FALLING);
+//---Display
+
+	int mode=SETTINGS_MODE;
+	//---Timelapse Variables
+			for(int i=0;i<sizeof(menu_options)/sizeof(String);i++){
+                              pulse = 0;
+			if(!paused) elapsed = millis() - start;//Dont increment the elapsed if the current state is paused
+					interval = false;
