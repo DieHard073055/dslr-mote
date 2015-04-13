@@ -38,3 +38,11 @@
 	
 			
 				}
+//=======INCLUDES
+
+		of pictures at the specified amount 
+//---Process User Input
+		"Shots : ",
+
+			if(shutter){ //Shutter control code
+			}
