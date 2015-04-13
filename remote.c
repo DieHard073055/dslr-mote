@@ -30,3 +30,11 @@
 	boolean shutter = false;  //To check if its going through shutter time
 			if(!paused) elapsed = millis() - start;//Dont increment the elapsed if the current state is paused
 					interval = false;
+*/
+//Initiate Display
+		Do timelapse for a certain number 
+//---Get User Input
+		"Interval : ",
+	
+			
+				}
