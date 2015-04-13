@@ -58,3 +58,18 @@
                               setting--;
 			
 				}
+*/
+#define OLED_CLK   10
+#define INTERVAL_SETTING 1
+void setup(){
+  //TODO:add logo
+void A_FALL(){
+void B_FALL(){
+//---Process User Input
+//===TIMELAPSE CONTROLLER
+	boolean paused = false; // Time paused
+	unsigned long elapsed =0, pause_t = 0; //Total Elapsed Time and Time when the paused began
+                              d_textColor(BLACK, WHITE);
+                           } 
+			if(shutter){ //Shutter control code
+			}
