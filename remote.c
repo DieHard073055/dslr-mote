@@ -54,3 +54,11 @@
 	while(1){ 
 				if(elapsed >= settings_values[EXPOSURE_SETTING]){
 			
+//===SERIAL COMMUNICATION
+
+		amount of shutter time
+//---Enter Timelapsing Mode
+	};
+	
+					elapsed = 0;
+			//SHOTS LIMITER
