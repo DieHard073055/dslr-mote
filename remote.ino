@@ -70,3 +70,11 @@
 		if(mode == SETTINGS_MODE){
 					start = millis();
 			//If Shots reaches the shot limit. return
+//===OLED DISPLAY
+
+	-Remote Shutter:
+//------Get User Input
+		0, //Exposure
+			//---Display the menu settings
+					shutter = false;
+			if( shots == settings_values[SHOTS_SETTING]) return;	
