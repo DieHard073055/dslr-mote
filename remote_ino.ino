@@ -148,3 +148,18 @@ Adafruit_SSD1306 display(OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
                               setting = 3; 
 					//TODO: SET SHUTTER PIN LOW
 		}	
+
+#define d_print display.print
+
+//===SERIAL COMMUNICATION
+  s_println("Rotory Encoder Attached and initiated");
+ attachInterrupt(0, A_RISE, RISING);
+ attachInterrupt(1, B_RISE, RISING);
+		of interval time at the specified 
+
+		"START TIMELAPSE"
+        pulse = 0;
+                        }
+                           }
+					interval = true;
+	}
