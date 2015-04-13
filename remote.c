@@ -46,3 +46,11 @@
 
 			if(shutter){ //Shutter control code
 			}
+//=======DEFINITIONS
+
+		of interval time at the specified 
+
+		"START TIMELAPSE"
+	while(1){ 
+				if(elapsed >= settings_values[EXPOSURE_SETTING]){
+			
