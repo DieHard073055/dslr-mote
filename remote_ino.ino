@@ -43,3 +43,18 @@
                               pulse = 0;
 			if(!paused) elapsed = millis() - start;//Dont increment the elapsed if the current state is paused
 					interval = false;
+
+#define OLED_MOSI   9
+#define EXPOSURE_SETTING 0
+//Initiate Display
+  s_println("OLED SSD1306 Display Initiated");
+}
+}
+//---Get User Input
+
+	int setting=0; // Current focussed setting
+	unsigned long start = 0; //Millis when the timelapsing started
+                            if(setting == i){
+                              setting--;
+			
+				}
