@@ -14,3 +14,11 @@
 	int shots=0; //Total Number of shots taken
 			//---Timelapse control functions
 					shutter = true;
+	-Timelapse + Remote Function
+//Initiate Serial Communication for debugging
+	Menu Options
+//Enter While Loop
+	String menu_options[] = {
+	boolean interval = false; //To check if its going through interval time
+			
+					//TODO: SET SHUTTER PIN HIGH
