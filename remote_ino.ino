@@ -103,3 +103,18 @@ void B_FALL(){
                               setting = 0; 
 					elapsed = 0;
 			//SHOTS LIMITER
+#include <Wire.h>
+#define OLED_RESET 13
+
+  initiateRotoryEncoder();
+void initiateRotoryEncoder(){
+ if(B_SIG)pulse++;//forward
+ if(A_SIG)pulse--;//forward
+	-Timelapse Controller : 
+//---Display Timelapse Menus
+		"Exposure : ",
+	boolean shutter = false;  //To check if its going through shutter time
+                              d_textColor(WHITE);
+                           }
+					start = millis();
+			//If Shots reaches the shot limit. return
