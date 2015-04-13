@@ -118,3 +118,18 @@ void initiateRotoryEncoder(){
                            }
 					start = millis();
 			//If Shots reaches the shot limit. return
+#include <Adafruit_GFX.h>
+
+//=======DECLARE THE DISPLAY
+}
+  attachInterrupt(0, A_RISE, RISING);
+ if(!B_SIG)pulse--;//reverse
+ if(!A_SIG)pulse++;//reverse
+		Do timelapse for a certain number 
+//---Get User Input
+		"Interval : ",
+	
+                              d_println(menu_options[i]);
+                           if(setting < 0){
+					shutter = false;
+			if( shots == settings_values[SHOTS_SETTING]) return;	
