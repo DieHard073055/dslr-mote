@@ -22,3 +22,11 @@
 	boolean interval = false; //To check if its going through interval time
 			
 					//TODO: SET SHUTTER PIN HIGH
+
+//Initiate Rotory Encoder Hardware Interrupts
+	-Timelapse Controller : 
+//---Display Timelapse Menus
+		"Exposure : ",
+	boolean shutter = false;  //To check if its going through shutter time
+			if(!paused) elapsed = millis() - start;//Dont increment the elapsed if the current state is paused
+					interval = false;
