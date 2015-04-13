@@ -133,3 +133,18 @@ void initiateRotoryEncoder(){
                            if(setting < 0){
 					shutter = false;
 			if( shots == settings_values[SHOTS_SETTING]) return;	
+#include <Adafruit_SSD1306.h>
+#define d_clear display.clearDisplay
+Adafruit_SSD1306 display(OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
+//=======INITIATION FUNCTIONS
+  attachInterrupt(1, B_RISE, RISING);
+ Serial.println(pulse);
+ Serial.println(pulse);
+		of pictures at the specified amount 
+//---Process User Input
+		"Shots : ",
+        //RESET PULSE
+                            }
+                              setting = 3; 
+					//TODO: SET SHUTTER PIN LOW
+		}	
