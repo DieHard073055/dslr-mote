@@ -125,3 +125,10 @@ void TimelapseController(){
 	//---Timelapse Variables
 			
 				if(elapsed >= settings_values[INTERVAL_SETTING]){
+
+//---Get User Input
+
+	int setting=0; // Current focussed setting
+	unsigned long start = 0; //Millis when the timelapsing started
+			//---Process User input if any
+					elapsed = 0;
