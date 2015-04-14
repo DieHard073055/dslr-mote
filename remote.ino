@@ -102,3 +102,11 @@ void TimelapseController(){
 
 					shots++;
 
+#define EXPOSURE_SETTING 0
+//Initiate All Menu Variables
+		amount of times after a specified delay.
+	//INITIALISATION
+	//---User Input Variables
+		}else if(mode == TIMELAPSE_MODE){	
+				}				
+	
