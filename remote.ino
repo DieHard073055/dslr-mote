@@ -94,3 +94,11 @@
 			//---Process User input if any
 					interval = true;
 	}
+#define SETTINGS_MODE 21
+//===MENU
+		Trigger the Shutter at a specified 
+void TimelapseController(){
+	};
+
+					shots++;
+
