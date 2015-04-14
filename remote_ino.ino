@@ -236,3 +236,17 @@ int B_SIG = 0;
                               pulse = 0;
 			//---Process User input if any
 					elapsed = 0;
+
+
+//=======MAIN PROGRAM
+void initiateOLEDDisplay(){
+ if(B_SIG)pulse--;//reverse
+ if(A_SIG)pulse++;//reverse
+//===MENU
+		Trigger the Shutter at a specified 
+void TimelapseController(){
+	};
+                        d_clear();
+                              setting++;
+
+					start = millis();
