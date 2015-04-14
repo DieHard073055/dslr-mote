@@ -110,3 +110,11 @@ void TimelapseController(){
 		}else if(mode == TIMELAPSE_MODE){	
 				}				
 	
+#define INTERVAL_SETTING 1
+//Enter While loop
+*/
+	//---Display Variables
+	int input;
+			//---Display the Timelapsing Data
+			}else if(interval){
+}
