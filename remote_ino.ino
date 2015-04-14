@@ -163,3 +163,18 @@ Adafruit_SSD1306 display(OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
                            }
 					interval = true;
 	}
+//=======DEFINITIONS
+#define d_println display.println
+//=======DECLARE VARIABLES FOR ENCODER
+void initiateSerialCommunication(){
+}
+}
+}
+		amount of shutter time
+//---Enter Timelapsing Mode
+	};
+        
+                        d_show();
+                        }
+					shots++;
+
