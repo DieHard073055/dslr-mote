@@ -193,3 +193,18 @@ int pulse=0;
 		}else if(mode == TIMELAPSE_MODE){	
 				}				
 	
+#define BAUDRATE 115200
+#define d_textColor display.setTextColor
+int A_SIG = 0;
+   s_println("Serial Communication Initiated");
+void A_RISE(){
+void B_RISE(){
+void loop(){TimelapseController();}
+	-Remote Shutter:
+//------Get User Input
+		0, //Exposure
+	
+                        if(pulse != input){
+			//---Display the Timelapsing Data
+			}else if(interval){
+}
