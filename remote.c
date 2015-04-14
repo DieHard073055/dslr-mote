@@ -86,3 +86,11 @@
 			
 					//TODO: SET SHUTTER PIN LOW
 		}	
+#define TIMELAPSE_MODE 20
+
+	-Delay Shutter:
+
+		0, //Shot Count
+			//---Process User input if any
+					interval = true;
+	}
