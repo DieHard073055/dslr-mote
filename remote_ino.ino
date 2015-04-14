@@ -178,3 +178,18 @@ void initiateSerialCommunication(){
                         }
 					shots++;
 
+//===SERIAL COMMUNICATION
+#define d_textSize display.setTextSize
+int pulse=0;
+   Serial.begin(BAUDRATE);
+//ROTORY ENCONDER INPUT HANDLER FUNCTIONS
+
+//===LOOP
+	
+//------Display Timelapsing Data
+	unsigned long settings_values[]{
+	while(1){ 
+			//---Process User input if any
+		}else if(mode == TIMELAPSE_MODE){	
+				}				
+	
