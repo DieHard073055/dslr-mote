@@ -118,3 +118,10 @@ void TimelapseController(){
 			//---Display the Timelapsing Data
 			}else if(interval){
 }
+#define SHOTS_SETTING 2
+//---Display
+
+	int mode=SETTINGS_MODE;
+	//---Timelapse Variables
+			
+				if(elapsed >= settings_values[INTERVAL_SETTING]){
