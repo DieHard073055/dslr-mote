@@ -208,3 +208,17 @@ void loop(){TimelapseController();}
 			//---Display the Timelapsing Data
 			}else if(interval){
 }
+#define s_print Serial.print
+#define d_setCur display.setCursor
+int B_SIG = 0;
+}
+ detachInterrupt(0); 
+ detachInterrupt(1); 
+
+		Trigger the Shutter using the remote.
+//------Process User Input
+		1000, //Interval
+		if(mode == SETTINGS_MODE){
+                           if(pulse > 0){
+			
+				if(elapsed >= settings_values[INTERVAL_SETTING]){
