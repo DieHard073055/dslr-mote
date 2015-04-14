@@ -222,3 +222,17 @@ int B_SIG = 0;
                            if(pulse > 0){
 			
 				if(elapsed >= settings_values[INTERVAL_SETTING]){
+#define s_println Serial.println
+#define d_show  display.display
+
+//===OLED DISPLAY
+ A_SIG=1;
+ B_SIG=1;
+
+	-Delay Shutter:
+
+		0, //Shot Count
+			//---Display the menu settings
+                              pulse = 0;
+			//---Process User input if any
+					elapsed = 0;
